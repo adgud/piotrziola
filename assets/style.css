@@ -5,7 +5,7 @@ html, body {
 
 @font-face {
   font-family: Loft Std Mammoth;
-  src: url('/piotrziola/assets/LoftStd-Mammoth.otf') format("opentype");
+  src: url('/piotziola/assets/LoftStd-Mammoth.otf') format("opentype");
 }
 
 html, body {
@@ -15,7 +15,7 @@ html, body {
 
 body {
   font-family: 'PT Sans Narrow', sans-serif;
-  background-image: url("/piotrziola/assets/background2.jpg");
+  background-image: url("/piotziola/assets/background.jpg");
   background-repeat: repeat;
   background-color: #aa1414;
   width: 100%;
@@ -143,7 +143,7 @@ footer li {
     color: #000; }
 .modal-content {
   border-radius: 0;
-  background-image: url("/piotrziola/assets/blackbackground.jpg");
+  background-image: url("/piotziola/assets/blackbackground.jpg");
   background-repeat: repeat;
   background-color: #3e3e3e;
   color: #fff; }
@@ -156,7 +156,7 @@ footer li {
     opacity: 0.8; }
 
 .modal-content p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .listen-link {
