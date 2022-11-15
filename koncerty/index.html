@@ -44,12 +44,16 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="https://dwoznicka.github.io/piotrziola/assets/stylesheet.css">
+        <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css">
+        <link rel="stylesheet" href="https://dwoznicka.github.io/piotrziola/assets/flash.css">
+        <link rel="stylesheet" href="https://dwoznicka.github.io/piotrziola/assets/stylez.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;">
       </head>
     <body class="base ">
-        <div class="home-section">
+        <div class="pace-inactive">
+          <div class="home-section">
   <div class="home-tour-section">
     <h1 class="home-tour-title loft">PIOTR ZIOŁA / TRASA WARIAT</h1>
     <ul class="tour-dates-list loft ">
@@ -122,6 +126,7 @@
     </ul>
   </div>
 </div>
+        </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
@@ -129,5 +134,10 @@
         <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
 
         <script type="text/javascript" src="https://dwoznicka.github.io/piotrziola/assets/application.js"></script>
+        <script type="text/javascript">
+          Pace.on('done', function () {
+            $('.pace-inactive').removeClass('pace-inactive');
+          });
+        </script>
     </body>
 </html>
